@@ -8,6 +8,9 @@
     min-width: 100%; 
     min-height: 100%;
 }
+.project-title{
+    font-size: 30px
+}
 .header{
     max-height:100%;
   /* position:relative; */
