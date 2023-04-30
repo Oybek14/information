@@ -155,3 +155,97 @@ body {
     padding-top: 7px;
     text-align: center;
 }
+@media (max-width: 436px){
+    .header__title{
+        font-size: 35px;
+    }
+  .header__title{
+    font-size: ;
+  }
+  .about{
+    font-size: 25px;
+  }
+  .haeder__text-1{
+    font-size: 25px;
+  }
+  .about-text{
+    font-size: 22px;
+  }
+  .haeder__text{
+    font-size: 30px;
+  }
+  .project-title{
+    font-size: 25px;
+  }
+  .btn__info-link{
+    font-size: 21px;
+  }
+    }
+    @media (max-width: 396px){
+        .header__title{
+            font-size: 27px;
+        }
+        .round{
+            width: 150px;
+        }
+     
+      .about{
+        font-size: 23px;
+      }
+      .haeder__text-1{
+        font-size: 23px;
+      }
+      .about-text{
+        font-size: 21px;
+        max-width: 330px;
+      }
+      .haeder__text{
+        font-size: 26px;
+      }
+      .project-title{
+        font-size: 23px;
+      }
+      .btn__info-link{
+        font-size: 18px;
+      }
+      .a4{
+        font-size: 24px;
+      }
+        }
+        @media (max-width: 317px){
+            .header__title{
+                font-size: 23px;
+            }
+            .round{
+                width: 150px;
+            }
+         
+          .about{
+            font-size: 23px;
+          }
+          .haeder__text-1{
+            font-size: 20px;
+          }
+          .about-text{
+            font-size: 21px;
+            max-width: 280px;
+          }
+          .haeder__text{
+            font-size: 22px;
+          }
+          .project-title{
+            font-size: 20px;
+          }
+          .btn__info-link{
+            font-size: 15px;
+          }
+          .a4{
+            font-size: 24px;
+          }
+            }
+            @media (max-width: 360px){
+                .about-text{
+                    font-size: 21px;
+                    max-width: 300px;
+                  }
+            }
