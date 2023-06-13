@@ -8,6 +8,23 @@
     min-width: 100%; 
     min-height: 100%;
 }
+.fa-youtube-play{
+
+  color: red;
+}
+.fa-telegram{
+  color: rgb(29, 141, 201);
+}
+.fa-phone{
+  color: green;
+}
+.fa-instagram{
+  /* color: rgb(253, 29, 29); */
+  color: rgb(245, 96, 64);
+  
+  
+  
+}
 .about{
     text-align: center;
     font-size: 30px;

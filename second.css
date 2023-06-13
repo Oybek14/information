@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    
+    bottom: 0;
+
+    
+    min-width: 100%; 
+    min-height: 100%;
+}
+.header-1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header{
+    max-height:100%;
+  /* position:relative; */
+  overflow-y:auto;
+  position: fixed;
+  top: 0;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: rgba(0, 0, 0, 0.5); */
+  color: #f1f1f1;
+  width: 100%;
+  padding-top: 50px;
+}
+p{
+    color: azure;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    display: flex;
+    padding: 0 10px;
+}
+a{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+  
+  
+   
+    display: flex;
+    /* border: 2px solid wheat; */
+    border-radius: 4px;
+   margin: auto;
+   padding: 10px 30px;
+    border-radius: 15px;
+    color: rgb(15, 15, 15);
+    
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.837);
+    width: 250px;
+    max-width: 100%;
+    transition: 500ms;
+}
+a:hover{
+    color: white;
+    background: black;
+}
+@media (max-width: 436px){
+    p{
+        font-size: 24px
+    }
+    a{
+        font-size: 17px;
+    }
+}
