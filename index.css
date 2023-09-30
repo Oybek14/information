@@ -51,13 +51,15 @@
    margin-right: auto;
    display: block;
    max-width: 100%;
+   
 }
 .project-title{
     font-size: 30px
-}
+    
+  }
 .header{
     max-height:100%;
-  /* position:relative; */
+  
   overflow-y:auto;
 }
 * {
@@ -73,7 +75,7 @@ a{
     font-size: 34px;
     justify-content: center;
     text-align: center;
-   
+   padding-top: 13px;
 }
 .haeder__text{
     text-align: center;
@@ -88,14 +90,14 @@ a{
     font-size: 30px;
    
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .btn__info-link{
     padding: 10px 30px;
     border-radius: 15px;
     color: whitesmoke;
     
-    margin: 10px 0;
+    margin: 5px 0;
     font-weight: bold;
     font-size: 25px;
     background: rgba(83, 77, 77, 0.533);
